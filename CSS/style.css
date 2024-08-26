@@ -19,6 +19,12 @@ nav {
     display: flex;
 }
 
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 200%;
+}
+
 .nav-item {
     border: 1px solid;
     color: black;
@@ -54,6 +60,22 @@ nav {
     background-position: center;
     border-radius: 50%;
     width: 75px;
+}
+
+
+
+.form-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 254px;
+}
+
+.formulir {
+    width: 60%;
+    margin-left: 70px;
 }
 
 .footer {
