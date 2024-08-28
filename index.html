@@ -33,7 +33,12 @@
                     doloribus dignissimos, minima nemo repellendus fugiat dolore minus, doloremque nostrum unde ab
                     asperiores. Libero, molestias magni vel error repudiandae suscipit voluptatem esse molestiae
                     commodi!</p>
-                <div class="banner-img"></div>
+                <div class="banner-img">
+                    <div class="slides">
+                        <img class="slide" src=""
+
+                    </div>
+                </div>
             </header>
         </article>
 
@@ -67,23 +72,23 @@
 
         <hr />
 
+        <header><h2 style="text-align: center;">Message Us</h2></header>
         <section class="form-container">
-            <form class="formulir" name="message-form" onsubmit="return validateForm()">
-                <h2>Message Us</h2>
+            <form name="message-form" onsubmit="return validateForm()">
                 Nama          :<input placeholder="Nama" type="text" name="full-name" /><br />
 
                 Tanggal Lahir :<input type="date" name="birth-date" /><br />
 
                 Jenis Kelamin :
-                <input type="radio" id="male" name="gender" value="male"/>
+                <input type="radio" id="male" name="gender" value="Laki-laki"/>
                 <label1 for="male">Laki-laki</label1>
-                <input type="radio" id="female" name="gender" value="male"/>
-                <label1 for="male">Perempuan</label1>
+                <input type="radio" id="female" name="gender" value="Perempuan"/>
+                <label1 for="female">Perempuan</label1><br/>
 
                 Pesan:
                 <textarea placeholder="Pesan" name="message"></textarea><br/>
 
-                <input type="submit" value="Submit"/>
+                <input class="button-sub" type="submit" value="Submit"/>
             </form>
             <div class="form-item">
                 <p>Nama: <span id="sender-full-name"></span></p>

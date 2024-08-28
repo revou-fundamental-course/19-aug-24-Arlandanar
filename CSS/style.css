@@ -38,9 +38,6 @@ nav {
 .banner-img {
     width: 1366px;
     height: 578px;
-    background-image: url(https://media.istockphoto.com/id/1150767238/id/vektor/lanskap-gunung-horizontal-dengan-pepohonan-latar-belakang-pegunungan-yang-mulus.jpg?s=170667a&w=0&k=20&c=zXDjKUzhZKjc7OYsRmwvanpDr88iulfOWZnEos1m2EE=);
-    background-size: cover;
-    background-position: center;
 }
 
 .profile-container {
@@ -62,20 +59,33 @@ nav {
     width: 75px;
 }
 
-
-
 .form-container {
     display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    justify-content: flex-start;
-    height: 254px;
+    align-items: flex-start;
+    justify-content: space-between
 }
 
-.formulir {
-    width: 60%;
-    margin-left: 70px;
+.form-item {
+    width: 400px;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+form {
+    overflow: hidden;
+}
+
+
+textarea {
+    border-radius: 20px;
+    height: 100px;
+}
+
+.button-sub {
+    text-align: center;
+    width: 345px;
+    background-color: rgb(81, 248, 81);
 }
 
 .footer {
