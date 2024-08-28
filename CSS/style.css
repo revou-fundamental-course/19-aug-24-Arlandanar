@@ -35,22 +35,7 @@ nav {
     border-radius: 8px;
 }
 
-.banner-img {
-    width: 1366px;
-    height: 578px;
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-}
 
-.banner-img img {
-    width: 100%;
-    display: none;
-}
-
-img.displaySlide {
-    display: block;
-}
 
 .profile-container {
     display: flex;
