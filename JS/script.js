@@ -28,3 +28,22 @@ function setSenderUI(name, birthDate, gender, message) {
     document.getElementById("sender-gender").innerHTML = gender;
     document.getElementById("sender-message").innerHTML = message;
 }
+
+const slides = document.querySelectorAll(".slide img");
+let slideIndex = 0;
+let intervalid = null
+
+initializeSlider();
+
+function initializeSlider(){
+    slides[slideIndex].classList.add("displaySlide");
+}
+function showSlide(index){
+
+}
+function prevSlide(){
+
+}
+function nextSlide(){
+    
+}
