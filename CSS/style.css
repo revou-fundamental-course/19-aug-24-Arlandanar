@@ -5,6 +5,14 @@ nav {
     justify-content: space-between;
 }
 
+.banner-img {
+    width: 1366px;
+    height: 578px;
+    background-image: url('https://fastly.picsum.photos/id/641/200/200.jpg?hmac=9pd71nRRRsT7TXf0zn0hQ6tW6VQnQ-UtL1JXDhJZB8E');
+    background-position: center;
+    background-size: cover;
+}
+
 .logo-icon {
     border: 1px solid;
     height: 48px;
